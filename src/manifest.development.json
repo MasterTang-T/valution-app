@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "name": "计算估值",
+    "description": "依据作者的估值理论,对股票进行估值",
+    "version": "0.0.1",
+    "options_page": "options.html",
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
