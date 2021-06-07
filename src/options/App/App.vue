@@ -1,12 +1,17 @@
 <template>
   <div class="main_app">
-    <h1>Hello Options</h1>
+    <h1>{{title}}</h1>
   </div>
 </template>
 
 <script>
 export default {
   name: 'app',
+  data(){
+    return {
+      title: '暂无配置'
+    }
+  }
 }
 </script>
 
